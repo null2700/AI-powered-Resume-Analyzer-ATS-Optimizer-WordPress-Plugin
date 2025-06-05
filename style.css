@@ -1,0 +1,52 @@
+.resume-analyzer-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.styled-textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: monospace;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+.styled-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #45a049;
+}
+
+.styled-output {
+    background-color: #f4f4f4;
+    border-left: 4px solid #4CAF50;
+    padding: 15px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
